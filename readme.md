@@ -98,22 +98,13 @@ python3.9 manage.py test
 
 ## 2) Frontend (React) — `mathquest-frontend/`
 
-### 2.1 Use Node 18/20
-
-If you use `nvm`:
-
-```bash
-cd mathquest-frontend
-nvm use    # uses .nvmrc (recommend 20); if missing: nvm install 20 && nvm alias default 20
-```
-
-### 2.2 Install deps
+### 2.1 Install deps
 
 ```bash
 npm install
 ```
 
-### 2.3 Run frontend
+### 2.2 Run frontend
 
 ```bash
 npm start
